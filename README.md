@@ -8,7 +8,7 @@ sales, profit, and growth signals at a glance, and supports drill-down into stat
 Power BI Desktop (free)
 
 ## Dataset
-Indian e-commerce Sales & Financial dataset (sourced from Kaggle) — (Details and Orders data)
+Indian e-commerce Sales & Financial dataset (sourced from Kaggle) with (Details and Orders data)
 order-level records across states, product categories, sub-categories, customers, and payment modes.
 
 ## KPIs Selected
@@ -44,6 +44,7 @@ This project reinforced how a small set of well-chosen KPIs, paired with interac
 turns raw transactional data into a dashboard business stakeholders can actually act on.
 
 
-5. **Making a dashboard interactive**: Adding slicers/filters, cross-filtering between visuals, drill-through pages, bookmarks/buttons for navigation, and tooltips.
-6. **Handling large datasets**: Use Import mode with proper data modeling (star schema), aggregate/summarize where possible, use DirectQuery for very large sources, remove unused columns, and optimize DAX measures.
-7. **Chart types for trend analysis**: Line charts and column/bar charts for time-series; area charts when showing cumulative volume; combo charts when comparing two related trends (e.g., sales vs. profit) on one visual.
+1. **Making a dashboard interactive**: Adding slicers/filters, cross-filtering between visuals, drill-through pages, bookmarks/buttons for navigation, and tooltips.
+2. **Handling large datasets**: Use Import mode with proper data modeling (star schema), aggregate/summarize where possible, use DirectQuery for very large sources, remove unused columns, and optimize DAX measures.
+3. **Chart types for trend analysis**: Line charts and column/bar charts for time-series; area charts when showing cumulative volume; combo charts when comparing two related trends (e.g., sales vs. profit) on one visual.
+4. **Storytelling and PPT**
